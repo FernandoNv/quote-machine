@@ -1,0 +1,36 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+#quote-box {
+    width: 90vw;
+    min-height: 250px;
+    background-color: white;
+    border-radius: 2em;
+    padding:2em;
+    transition: ease-in-out .5s all;
+}
+
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+
+    #text {
+        font-size: 1.5em;
+        margin: 1em 0;
+    }
+
+    #author {
+        font-size: 1em;
+        font-style: italic;
+    }
+
+    .quote-icon{
+        font-size: 2em;
+    }
+}
+
+
+@media screen and (min-width: 700px){
+    #quote-box {
+        width: 43vw;
+    }
+}

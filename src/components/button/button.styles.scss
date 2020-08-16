@@ -1,0 +1,14 @@
+#new-quote{
+    border: none;
+    padding: .6em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.5s all;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
